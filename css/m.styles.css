@@ -2,10 +2,9 @@ p {
   text-indent:1em;
 }
 
-html{
-  font-size: 80%;
+body {
+  -webkit-text-size-adjust: 100%;
 }
-
 .header {
     margin: 0;
     padding: 12px 0;
