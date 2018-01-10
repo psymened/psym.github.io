@@ -2,6 +2,14 @@ p {
   text-indent:1em;
 }
 
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.4rem;
+}
+
 .header {
     margin: 0;
     padding: 12px 0;
