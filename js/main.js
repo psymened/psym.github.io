@@ -8,3 +8,16 @@ $(function(){
     return false;
   });
 });
+
+$(function(){
+  var topBtn=$('#pageTop');
+  topBtn.hide();
+
+  $(window).scroll(function(){
+    if($(this).scrollTop()>80){
+      topBtn.fadeIn();
+    }else{
+      topBtn.fadeOut();
+    }
+  });
+});

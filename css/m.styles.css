@@ -45,6 +45,40 @@ p {
     color: #999;
 }
 
+#pageTop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 16px;
+  z-index:10000;
+}
+
+#pageTop a {
+  display: block;
+  background-color: #ccc;
+  text-align: center;
+  color: #222;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px 10px;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+#pageTop a:hover {
+  display: block;
+  background-color: #b2d1fb;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  padding:5px 10px;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
 .main {
   background-color: #fff;
 	margin:0 auto;
@@ -59,6 +93,6 @@ p {
 }
 
 .footer {
-  background-color: #fff;
+  background-color: #333;
   text-align: center;
 }
