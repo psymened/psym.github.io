@@ -2,10 +2,11 @@ p {
   text-indent:1em;
 }
 
-body {
-  font-size: 16px;
-  line-height: 1.5rem;
-}
+html { font-size: 62.5%; }
+body { font-size: 1.6rem; }
+p  { font-size: 1.6rem; }
+li { font-size: 1.6rem; }
+li p { font-size: 1.6rem; }
 
 .header {
     margin: 0;
@@ -64,22 +65,9 @@ body {
   background-color: #ccc;
   text-align: center;
   color: #222;
-  font-size: 12px;
+  font-size: 44px;
   text-decoration: none;
-  padding: 5px 10px;
-  filter:alpha(opacity=50);
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-
-#pageTop a:hover {
-  display: block;
-  background-color: #b2d1fb;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
-  text-decoration: none;
-  padding:5px 10px;
+  padding: 16px 16px 16px 0px;
   filter:alpha(opacity=50);
   -moz-opacity: 0.5;
   opacity: 0.5;

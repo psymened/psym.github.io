@@ -2,15 +2,17 @@ p {
   text-indent:1em;
 }
 
-body {
-  font-size: 16px;
-}
+html { font-size: 62.5%; }
+body { font-size: 1.6rem; }
+p  { font-size: 1.6rem; }
+li { font-size: 1.6rem; }
+li p { font-size: 1.6rem; }
 
 .header {
     margin: 0;
     padding: 12px 0;
     width: 100%;
-    color: #000;
+    color: #fff;
     background-color: #333;
     text-align: center;
 }
@@ -65,19 +67,6 @@ body {
   font-size: 12px;
   text-decoration: none;
   padding: 5px 10px;
-  filter:alpha(opacity=50);
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-
-#pageTop a:hover {
-  display: block;
-  background-color: #b2d1fb;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
-  text-decoration: none;
-  padding:5px 10px;
   filter:alpha(opacity=50);
   -moz-opacity: 0.5;
   opacity: 0.5;
