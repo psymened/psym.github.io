@@ -1,12 +1,14 @@
-p {
-  text-indent:1em;
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; 
 }
 
-html { font-size: 62.5%; }
-body { font-size: 1.6rem; }
-p  { font-size: 100%; }
-li { font-size: 1.6rem; }
-li p { font-size: 1.6rem; }
+p {
+  text-indent:1em;
+  font-size: 100%;
+}
 
 .header {
     margin: 0;
