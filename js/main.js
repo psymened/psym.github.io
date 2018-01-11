@@ -9,6 +9,10 @@ $(function(){
   });
 });
 
+$(window).on('scroll', function() {
+    $('#header').toggleClass('fixed', $(this).scrollTop() > 50);
+});
+
 $(function(){
   var topBtn=$('#pageTop');
   topBtn.hide();
